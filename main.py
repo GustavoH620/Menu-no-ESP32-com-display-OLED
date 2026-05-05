@@ -7,7 +7,7 @@ from menu_principal import menu_principal
 btn1 = Pin(13, Pin.IN, Pin.PULL_UP)
 btn2 = Pin(12, Pin.IN, Pin.PULL_UP)
 btnEnter = Pin(14, Pin.IN, Pin.PULL_UP)
-estadoAnteriorEnter = 1
+valorAnteriorEnter = 1
 tempoEnterAnterior = time.ticks_ms()
 enter = 1
 index = 0
